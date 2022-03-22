@@ -274,3 +274,43 @@ else if(soLuongHang > 100)
     tongTienHang = (donGia * 50) + soTienHangHon50 + soTienHangHon100;
     console.log(tongTienHang);
 }
+
+/**
+  ----------DEMO SWITCH CASECC------
+ */
+//VÍ DỤ: ĐỌC SỐ:
+var so = 1;
+if(so == 1)
+{
+    console.log("Đây là số 1")
+}
+else if(so == 2)
+{
+    console.log("Đây là số 2")
+}
+else if(so == 3)
+{
+    console.log("Đây là số 3")
+}
+else
+{
+    console.log("Số khác")
+}
+//SWITCH CASE DÙNG CHO TRƯỜNG HỢP SỐ CHÍNH XÁC, KO DÙNG CHO 1 KHOẢNG SỐ (ví dụ: n > n2)...
+var number = 1;
+switch (number) 
+{
+    case 1:
+        console.log("số 1");
+        break;
+    case 2:
+        console.log("số 2");
+        break;
+    case 3:
+        console.log("số 3");
+        break;
+  
+    default:
+        console.log("không biết đọc!");//nếu là số khác
+        break;
+  }
